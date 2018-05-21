@@ -16,14 +16,9 @@ def line(a)
 end
 
 def take_a_number(q,s) #q is the array, and s is the person's name as a string
-  #if q.length == 0
-  #    q << s
-  #    puts "Welcome, #{s}. You are number 1 in line."
-  #else
-      q << s
-      n = q.length
-      puts "Welcome, #{s}. You are number #{n} in line."
-#  end
+    q << s
+    n = q.length
+    puts "Welcome, #{s}. You are number #{n} in line."
 end
 
 def now_serving(arr)
